@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 16.125" name="StarWarsClass">
+  <DataContextMoniker Name="/StarWarsClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e06db0b0-db44-4682-8aa9-3f8f691569fa" absoluteBounds="0.75, 5, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/StarWarsClassDataContext/film" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2161b789-c847-46c7-a1af-62dbc43f8556" absoluteBounds="0.765, 5.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dbe69684-8bfa-426c-8660-c4258b4db6eb" absoluteBounds="6.5, 8.25, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/StarWarsClassDataContext/vehicles_pilot" />
+      <nestedChildShapes>
+        <elementListCompartment Id="297c21b6-6f2b-422d-aff6-63eb56822070" absoluteBounds="6.515, 8.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e68ed84-de6f-44ee-9e29-a4092acc105c" absoluteBounds="3.5, 5.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/StarWarsClassDataContext/films_character" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4da90803-9672-4816-8fc8-df1016a9a028" absoluteBounds="3.515, 6.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="704d4703-ee2d-4f07-97ec-a31fce275e64" absoluteBounds="3.5, 3.75, 2, 1.193992513020834">
+      <DataClassMoniker Name="/StarWarsClassDataContext/films_planet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27f5c5fd-72d3-4b52-ab2d-a7f8ec227752" absoluteBounds="3.515, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7a819b5e-50c5-4ea8-a766-d2f4f791b94e" absoluteBounds="3.5, 7.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/StarWarsClassDataContext/films_specy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24635196-eebd-4299-b2e8-589fd486bd4b" absoluteBounds="3.515, 8.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2051aaf-d718-4441-a585-26574e86d54d" absoluteBounds="6.5, 5.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/StarWarsClassDataContext/films_starship" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e1b5af18-52e7-4a34-b5da-eac7f84551d0" absoluteBounds="6.515, 6.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c1f1f6b-6478-42a0-aebb-a7241eee6aef" absoluteBounds="6.5, 3.75, 2, 1.193992513020834">
+      <DataClassMoniker Name="/StarWarsClassDataContext/films_vehicle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="675db7ed-bf8e-4626-89b2-ca33856256af" absoluteBounds="6.515, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9faf3e7a-3d1a-44d0-8a89-7badbf6fd012" absoluteBounds="0.75, 8.75, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/StarWarsClassDataContext/people" />
+      <nestedChildShapes>
+        <elementListCompartment Id="56cbd44c-7622-4db2-b88a-0dc799da0265" absoluteBounds="0.765, 9.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90eba80b-031b-43c8-be82-f2a3855c930f" absoluteBounds="0.75, 0.75, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/StarWarsClassDataContext/planet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b814fc26-8de8-4167-b138-4de3316fb992" absoluteBounds="0.765, 1.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="38ef04cf-7c7b-4d69-a43a-5e1843a194c0" absoluteBounds="0.75, 12.625, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/StarWarsClassDataContext/specy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75799b55-c3c5-47c9-add5-b5562f9de13c" absoluteBounds="0.765, 13.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2e71f621-f053-4612-bb41-0dff52a51942" absoluteBounds="3.5, 13.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/StarWarsClassDataContext/species_people" />
+      <nestedChildShapes>
+        <elementListCompartment Id="27192968-d4de-40a2-84ce-088cee157762" absoluteBounds="3.515, 14.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a07c7b05-1970-406f-aa62-6d2013a30652" absoluteBounds="3.75, 10.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/StarWarsClassDataContext/starship" />
+      <nestedChildShapes>
+        <elementListCompartment Id="08dd4bd4-672b-43a3-93a6-35a06bd1863b" absoluteBounds="3.765, 10.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="405dd3e4-06db-454d-b107-d9e2bf6ba6f8" absoluteBounds="6.5, 10.875, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/StarWarsClassDataContext/starships_pilot" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e7e00d6-4d4f-4ebe-8922-7065613f43ec" absoluteBounds="6.515, 11.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35ceb1bb-e688-47fd-a51b-7e3df831c6be" absoluteBounds="9.75, 1.25, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/StarWarsClassDataContext/transport" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0bc9bb39-69fe-4689-97f7-532349c21fd3" absoluteBounds="9.765, 1.71, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee7065bb-06eb-4c17-a49d-bc612549a3e6" absoluteBounds="3.75, 1.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/StarWarsClassDataContext/vehicle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="abe2a854-1377-44c7-9104-844e291dcdf9" absoluteBounds="3.765, 2.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 6.34699625651042); (3.5 : 6.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/film/film_films_character" />
+      <nodes>
+        <classShapeMoniker Id="e06db0b0-db44-4682-8aa9-3f8f691569fa" />
+        <classShapeMoniker Id="0e68ed84-de6f-44ee-9e29-a4092acc105c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.03076823076923); (3.1875 : 4.59326823076923); (3.1875 : 5.25740996880008); (3.50091745577925 : 4.94399251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StarWarsClassDataContext/film/film_films_planet" />
+      <nodes>
+        <classShapeMoniker Id="e06db0b0-db44-4682-8aa9-3f8f691569fa" />
+        <classShapeMoniker Id="704d4703-ee2d-4f07-97ec-a31fce275e64" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.5401025390625); (3.125 : 7.9151025390625); (3.125 : 7.37408254422075); (3.25357443490112 : 7.50265697912187 : JumpStart); (3.37142556509888 : 7.62050810931963 : JumpEnd); (3.50091745577925 : 7.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StarWarsClassDataContext/film/film_films_specy" />
+      <nodes>
+        <classShapeMoniker Id="e06db0b0-db44-4682-8aa9-3f8f691569fa" />
+        <classShapeMoniker Id="7a819b5e-50c5-4ea8-a766-d2f4f791b94e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.21079552604167); (3.22916666666667 : 7.21079552604167 : JumpStart); (3.39583333333333 : 7.21079552604167 : JumpEnd); (5.57291666666667 : 7.21079552604167 : JumpStart); (5.73958333333333 : 7.21079552604167 : JumpEnd); (6.04166666666667 : 7.21079552604167 : JumpStart); (6.20833333333333 : 7.21079552604167 : JumpEnd); (7.5 : 7.21079552604167); (7.5 : 6.94399251302083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/film/film_films_starship" />
+      <nodes>
+        <classShapeMoniker Id="e06db0b0-db44-4682-8aa9-3f8f691569fa" />
+        <classShapeMoniker Id="c2051aaf-d718-4441-a585-26574e86d54d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.03538361538462); (3 : 4.78538361538462); (3 : 5.31899251302083); (5.57291666666667 : 5.31899251302083 : JumpStart); (5.73958333333333 : 5.31899251302083 : JumpEnd); (6.125 : 5.31899251302083); (6.5 : 4.94399251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StarWarsClassDataContext/film/film_films_vehicle" />
+      <nodes>
+        <classShapeMoniker Id="e06db0b0-db44-4682-8aa9-3f8f691569fa" />
+        <classShapeMoniker Id="9c1f1f6b-6478-42a0-aebb-a7241eee6aef" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.22524251302083); (3.04166666666667 : 9.22524251302083 : JumpStart); (3.20833333333333 : 9.22524251302083 : JumpEnd); (6.04166666666667 : 9.22524251302083 : JumpStart); (6.20833333333333 : 9.22524251302083 : JumpEnd); (6.5 : 9.22524251302083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/people/people_vehicles_pilot" />
+      <nodes>
+        <classShapeMoniker Id="9faf3e7a-3d1a-44d0-8a89-7badbf6fd012" />
+        <classShapeMoniker Id="dbe69684-8bfa-426c-8660-c4258b4db6eb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 8.81307592307692); (3.06607443490112 : 8.4970014881758 : JumpStart); (3.18392556509888 : 8.37915035797804 : JumpEnd); (3.3125 : 8.25057592307692); (3.3125 : 6.67674638476563); (3.5 : 6.67674638476563)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/people/people_films_character" />
+      <nodes>
+        <classShapeMoniker Id="9faf3e7a-3d1a-44d0-8a89-7badbf6fd012" />
+        <classShapeMoniker Id="0e68ed84-de6f-44ee-9e29-a4092acc105c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.21875); (3.59375 : 1.21875); (3.59375 : 3.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/planet/planet_films_planet" />
+      <nodes>
+        <classShapeMoniker Id="90eba80b-031b-43c8-be82-f2a3855c930f" />
+        <classShapeMoniker Id="704d4703-ee2d-4f07-97ec-a31fce275e64" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 12.6265374615385); (3.125 : 12.2515374615385); (3.125 : 8.34699625651042); (3.13274633323317 : 8.34699625651042 : JumpStart); (3.29941299989984 : 8.34699625651042 : JumpEnd); (3.5 : 8.34699625651042)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/specy/specy_films_specy" />
+      <nodes>
+        <classShapeMoniker Id="38ef04cf-7c7b-4d69-a43a-5e1843a194c0" />
+        <classShapeMoniker Id="7a819b5e-50c5-4ea8-a766-d2f4f791b94e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 14.3469962565104); (3.5 : 14.3469962565104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/specy/specy_species_people" />
+      <nodes>
+        <classShapeMoniker Id="38ef04cf-7c7b-4d69-a43a-5e1843a194c0" />
+        <classShapeMoniker Id="2e71f621-f053-4612-bb41-0dff52a51942" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.71769230769231 : 11.8670068359375); (3.3125 : 12.4618145282452); (3.3125 : 14.0172461282552); (3.5 : 14.0172461282552)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/people/people_species_people" />
+      <nodes>
+        <classShapeMoniker Id="9faf3e7a-3d1a-44d0-8a89-7badbf6fd012" />
+        <classShapeMoniker Id="2e71f621-f053-4612-bb41-0dff52a51942" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 10.5); (6.125 : 10.125); (6.125 : 6.34699625651042); (6.5 : 6.34699625651042)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/starship/starship_films_starship" />
+      <nodes>
+        <classShapeMoniker Id="a07c7b05-1970-406f-aa62-6d2013a30652" />
+        <classShapeMoniker Id="c2051aaf-d718-4441-a585-26574e86d54d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 11.4719962565104); (6.5 : 11.4719962565104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/starship/starship_starships_pilot" />
+      <nodes>
+        <classShapeMoniker Id="a07c7b05-1970-406f-aa62-6d2013a30652" />
+        <classShapeMoniker Id="405dd3e4-06db-454d-b107-d9e2bf6ba6f8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 11.7716212205529); (3.05622396964337 : 11.9811388211437 : JumpStart); (3.19377603035663 : 12.075251564018 : JumpEnd); (3.4375 : 12.2420068359375); (3.4375 : 12.4439925130208); (6.125 : 12.4439925130208); (6.5 : 12.0689925130208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/StarWarsClassDataContext/people/people_starships_pilot" />
+      <nodes>
+        <classShapeMoniker Id="9faf3e7a-3d1a-44d0-8a89-7badbf6fd012" />
+        <classShapeMoniker Id="405dd3e4-06db-454d-b107-d9e2bf6ba6f8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.65625 : 2.94399251302083); (5.65625 : 9.08461501302083); (6.04166666666667 : 9.08461501302083 : JumpStart); (6.20833333333333 : 9.08461501302083 : JumpEnd); (6.5 : 9.08461501302083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/vehicle/vehicle_vehicles_pilot" />
+      <nodes>
+        <classShapeMoniker Id="ee7065bb-06eb-4c17-a49d-bc612549a3e6" />
+        <classShapeMoniker Id="dbe69684-8bfa-426c-8660-c4258b4db6eb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 2.34699625651042); (7.5 : 2.34699625651042); (7.5 : 3.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/StarWarsClassDataContext/vehicle/vehicle_films_vehicle" />
+      <nodes>
+        <classShapeMoniker Id="ee7065bb-06eb-4c17-a49d-bc612549a3e6" />
+        <classShapeMoniker Id="9c1f1f6b-6478-42a0-aebb-a7241eee6aef" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

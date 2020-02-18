@@ -1,0 +1,9 @@
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Data\bin\Debug\StarWars.Data.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Data\bin\Debug\StarWars.Data.pdb
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Data\bin\Debug\StarWars.DAL.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Data\bin\Debug\StarWars.Models.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Data\bin\Debug\StarWars.DAL.pdb
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Data\bin\Debug\StarWars.Models.pdb
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Data\obj\Debug\StarWars.Data.csprojResolveAssemblyReference.cache
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Data\obj\Debug\StarWars.Data.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Data\obj\Debug\StarWars.Data.pdb
