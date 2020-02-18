@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="star-wars" Class="StarWarsClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=candidate-test.caqylurhpyhw.eu-west-1.rds.amazonaws.com;Initial Catalog=star-wars;User ID=candidate" SettingsObjectName="StarWars.DAL.Properties.Settings" SettingsPropertyName="star_warsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.films" Member="films">
+    <Type Name="film">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="director" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="edited" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="episode_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="opening_crawl" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="producer" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="release_date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="film_films_character" Member="films_characters" ThisKey="id" OtherKey="film_id" Type="films_character" />
+      <Association Name="film_films_planet" Member="films_planets" ThisKey="id" OtherKey="film_id" Type="films_planet" />
+      <Association Name="film_films_specy" Member="films_species" ThisKey="id" OtherKey="film_id" Type="films_specy" />
+      <Association Name="film_films_starship" Member="films_starships" ThisKey="id" OtherKey="film_id" Type="films_starship" />
+      <Association Name="film_films_vehicle" Member="films_vehicles" ThisKey="id" OtherKey="film_id" Type="films_vehicle" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vehicles_pilots" Member="vehicles_pilots">
+    <Type Name="vehicles_pilot">
+      <Column Name="vehicle_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="people_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="people_vehicles_pilot" Member="people" ThisKey="people_id" OtherKey="id" Type="people" IsForeignKey="true" />
+      <Association Name="vehicle_vehicles_pilot" Member="vehicle" ThisKey="vehicle_id" OtherKey="id" Type="vehicle" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.films_characters" Member="films_characters">
+    <Type Name="films_character">
+      <Column Name="film_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="people_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="film_films_character" Member="film" ThisKey="film_id" OtherKey="id" Type="film" IsForeignKey="true" />
+      <Association Name="people_films_character" Member="people" ThisKey="people_id" OtherKey="id" Type="people" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.films_planets" Member="films_planets">
+    <Type Name="films_planet">
+      <Column Name="film_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="planet_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="film_films_planet" Member="film" ThisKey="film_id" OtherKey="id" Type="film" IsForeignKey="true" />
+      <Association Name="planet_films_planet" Member="planet" ThisKey="planet_id" OtherKey="id" Type="planet" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.films_species" Member="films_species">
+    <Type Name="films_specy">
+      <Column Name="film_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="species_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="film_films_specy" Member="film" ThisKey="film_id" OtherKey="id" Type="film" IsForeignKey="true" />
+      <Association Name="specy_films_specy" Member="specy" ThisKey="species_id" OtherKey="id" Type="specy" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.films_starships" Member="films_starships">
+    <Type Name="films_starship">
+      <Column Name="film_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="starship_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="film_films_starship" Member="film" ThisKey="film_id" OtherKey="id" Type="film" IsForeignKey="true" />
+      <Association Name="starship_films_starship" Member="starship" ThisKey="starship_id" OtherKey="id" Type="starship" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.films_vehicles" Member="films_vehicles">
+    <Type Name="films_vehicle">
+      <Column Name="film_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="vehicle_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="film_films_vehicle" Member="film" ThisKey="film_id" OtherKey="id" Type="film" IsForeignKey="true" />
+      <Association Name="vehicle_films_vehicle" Member="vehicle" ThisKey="vehicle_id" OtherKey="id" Type="vehicle" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.people" Member="peoples">
+    <Type Name="people">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="birth_year" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="edited" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="eye_color" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="gender" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="hair_color" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="height" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="homeworld" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mass" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="skin_color" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="people_vehicles_pilot" Member="vehicles_pilots" ThisKey="id" OtherKey="people_id" Type="vehicles_pilot" />
+      <Association Name="people_films_character" Member="films_characters" ThisKey="id" OtherKey="people_id" Type="films_character" />
+      <Association Name="people_species_people" Member="species_peoples" ThisKey="id" OtherKey="people_id" Type="species_people" />
+      <Association Name="people_starships_pilot" Member="starships_pilots" ThisKey="id" OtherKey="people_id" Type="starships_pilot" />
+    </Type>
+  </Table>
+  <Table Name="dbo.planets" Member="planets">
+    <Type Name="planet">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="climate" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="diameter" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="edited" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="gravity" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="orbital_period" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="population" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="rotation_period" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="surface_water" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="terrain" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="planet_films_planet" Member="films_planets" ThisKey="id" OtherKey="planet_id" Type="films_planet" />
+    </Type>
+  </Table>
+  <Table Name="dbo.species" Member="species">
+    <Type Name="specy">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="average_height" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="average_lifespan" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="classification" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="designation" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="edited" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="eye_colors" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="hair_colors" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="homeworld" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="language" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="skin_colors" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="specy_films_specy" Member="films_species" ThisKey="id" OtherKey="species_id" Type="films_specy" />
+      <Association Name="specy_species_people" Member="species_peoples" ThisKey="id" OtherKey="species_id" Type="species_people" />
+    </Type>
+  </Table>
+  <Table Name="dbo.species_people" Member="species_peoples">
+    <Type Name="species_people">
+      <Column Name="species_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="people_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="specy_species_people" Member="specy" ThisKey="species_id" OtherKey="id" Type="specy" IsForeignKey="true" />
+      <Association Name="people_species_people" Member="people" ThisKey="people_id" OtherKey="id" Type="people" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.starships" Member="starships">
+    <Type Name="starship">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MGLT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="hyperdrive_rating" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="starship_class" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="starship_films_starship" Member="films_starships" ThisKey="id" OtherKey="starship_id" Type="films_starship" />
+      <Association Name="starship_starships_pilot" Member="starships_pilots" ThisKey="id" OtherKey="starship_id" Type="starships_pilot" />
+    </Type>
+  </Table>
+  <Table Name="dbo.starships_pilots" Member="starships_pilots">
+    <Type Name="starships_pilot">
+      <Column Name="starship_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="people_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="starship_starships_pilot" Member="starship" ThisKey="starship_id" OtherKey="id" Type="starship" IsForeignKey="true" />
+      <Association Name="people_starships_pilot" Member="people" ThisKey="people_id" OtherKey="id" Type="people" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.transports" Member="transports">
+    <Type Name="transport">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cargo_capacity" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="consumables" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="cost_in_credits" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="crew" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="edited" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="length" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="manufacturer" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="max_atmosphering_speed" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="passengers" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vehicles" Member="vehicles">
+    <Type Name="vehicle">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="vehicle_class" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="vehicle_vehicles_pilot" Member="vehicles_pilots" ThisKey="id" OtherKey="vehicle_id" Type="vehicles_pilot" />
+      <Association Name="vehicle_films_vehicle" Member="films_vehicles" ThisKey="id" OtherKey="vehicle_id" Type="films_vehicle" />
+    </Type>
+  </Table>
+</Database>
