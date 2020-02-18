@@ -1,0 +1,5 @@
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Models\bin\Debug\StarWars.Models.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Models\bin\Debug\StarWars.Models.pdb
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Models\obj\Debug\StarWars.Models.csprojResolveAssemblyReference.cache
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Models\obj\Debug\StarWars.Models.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.Models\obj\Debug\StarWars.Models.pdb

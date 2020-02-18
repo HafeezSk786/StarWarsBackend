@@ -1,0 +1,12 @@
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\bin\Debug\StarWars.DAL.dll.config
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\bin\Debug\StarWars.DAL.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\bin\Debug\StarWars.DAL.pdb
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\bin\Debug\EntityFramework.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\bin\Debug\StarWars.Models.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\bin\Debug\StarWars.Models.pdb
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\bin\Debug\EntityFramework.xml
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\obj\Debug\StarWars.DAL.csprojResolveAssemblyReference.cache
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\obj\Debug\StarWars.DAL.dll
+C:\Users\afiza\documents\visual studio 2015\Projects\StarWarsAPI\StarWars.DAL\obj\Debug\StarWars.DAL.pdb
